@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packaging Products Range | Box Care</title>
+  <meta name="description" content="Explore Box Care's extensive collection of custom mailer boxes, heavy-duty shipping cartons, pizza boxes, mono-cartons, paper bags, tape rolls, and packaging accessories.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header scrolled" id="header" style="position: sticky;">
+  <div class="header-inner">
+    <!-- Logo -->
+    <a href="index.html" class="logo" id="logo-link">
+      <div class="logo-icon">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <rect width="36" height="36" rx="9" fill="#8B5E3C"/>
+          <path d="M8 8h12a6 6 0 010 12H8V8zm0 12h7v8H8v-8z" fill="#F7F2EC"/>
+          <path d="M22 20l4 4" stroke="#D68A45" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="28" cy="26" r="3" fill="#D68A45"/>
+        </svg>
+      </div>
+      <div class="logo-words">
+        <span class="logo-name">Box Care</span>
+        <span class="logo-tag">Premium Packaging</span>
+      </div>
+    </a>
+
+    <!-- Center nav -->
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html" class="nav-link" id="nav-home">Home</a>
+
+      <!-- Shop & Products Dropdown -->
+      <div class="nav-item-dropdown">
+        <a href="#" class="nav-link active" id="nav-shop" style="display: inline-flex; align-items: center; gap: 4px;">
+          Shop Products <i data-lucide="chevron-down" style="width:13px; height:13px"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="products.html" class="dropdown-item"><i data-lucide="grid" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> All Product Categories</a>
+          <a href="mailer-boxes.html" class="dropdown-item"><i data-lucide="box" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Mailer Boxes Collection</a>
+          <a href="catalog.html?type=corrugated-boxes" class="dropdown-item"><i data-lucide="layers" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Corrugated Cartons</a>
+          <a href="accessories.html" class="dropdown-item"><i data-lucide="tag" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Tapes &amp; Packaging Accessories</a>
+          <a href="bulk-orders.html" class="dropdown-item"><i data-lucide="truck" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Wholesale &amp; Bulk Orders</a>
+          <a href="#" class="dropdown-item" id="nav-cart-trigger"><i data-lucide="shopping-bag" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Shopping Cart</a>
+        </div>
+      </div>
+
+      <!-- Company & Support Dropdown -->
+      <div class="nav-item-dropdown">
+        <a href="#" class="nav-link" id="nav-company" style="display: inline-flex; align-items: center; gap: 4px;">
+          Company &amp; Support <i data-lucide="chevron-down" style="width:13px; height:13px"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="industries.html" class="dropdown-item"><i data-lucide="building" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Industries We Serve</a>
+          <a href="about.html" class="dropdown-item"><i data-lucide="info" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> About Box Care</a>
+          <a href="contact.html" class="dropdown-item"><i data-lucide="help-circle" style="width:14px; height:14px; margin-right:8px; color:var(--orange)"></i> Contact &amp; FAQs</a>
+        </div>
+      </div>
+
+      <!-- Custom Boxes Standalone Button -->
+      <a href="custom-boxes.html" class="nav-link btn-nav-highlight" id="nav-custom" style="display: inline-flex; align-items: center; gap: 6px; background: var(--orange-xl); color: var(--brown-dk); font-weight: 700; padding: 6px 14px; border-radius: 20px; text-decoration: none;">
+        <i data-lucide="box" style="width:15px; height:15px; color: var(--orange-dk);"></i> Custom Boxes
+      </a>
+    </nav>
+
+    <!-- Right actions -->
+    <div class="nav-actions">
+      <button class="icon-btn" id="search-toggle-btn" aria-label="Search">
+        <i data-lucide="search"></i>
+      </button>
+      <button class="icon-btn wishlist-btn" id="wishlist-toggle-btn" aria-label="Wishlist">
+        <i data-lucide="heart"></i>
+        <span class="badge" id="wishlist-count" hidden>0</span>
+      </button>
+      <button class="icon-btn" id="account-toggle-btn" aria-label="Account">
+        <i data-lucide="user"></i>
+      </button>
+      <button class="icon-btn cart-icon-btn" id="cart-toggle-btn" aria-label="Cart">
+        <i data-lucide="shopping-bag"></i>
+        <span class="badge" id="cart-count">0</span>
+      </button>
+      <a href="custom-boxes.html" class="quote-btn" id="get-quote-btn">Get Quote</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search bar -->
+  <div class="search-bar" id="search-bar">
+    <div class="search-bar-inner">
+      <i data-lucide="search" class="search-bar-icon"></i>
+      <input type="text" id="search-input" class="search-input" placeholder="Search for boxes, mailers, tapes, accessories…" autocomplete="off" />
+      <button class="search-clear-btn" id="search-clear-btn" aria-label="Clear search"><i data-lucide="x"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- Breadcrumbs -->
+<div class="breadcrumbs-container">
+  <div class="container">
+    <div class="breadcrumbs">
+      <a href="index.html">Home</a>
+      <span class="separator">/</span>
+      <span class="current">Products</span>
+    </div>
+  </div>
+</div>
+
+<!-- SHOP BY CATEGORY (OUR PRODUCTS) -->
+<section class="category-section section" id="products">
+  <div class="container">
+    <div class="section-head reveal-up visible" style="text-align: center;">
+      <h2 class="section-title" style="font-size: 2.2rem; font-weight: 800; color: var(--charcoal); margin-bottom: 8px;">Our Products</h2>
+      <p class="section-sub" style="font-size: 1rem; color: var(--charcoal-lt);">High-quality packaging solutions for every need</p>
+    </div>
+    <div class="category-grid">
+      <!-- 1. Mailer Boxes -->
+      <a href="catalog.html?type=mailer-boxes" class="cat-card reveal-up visible" id="cat-mailer" style="--delay:.04s">
+        <div class="cat-img-box">
+          <img src="images/mailer-boxes.png" alt="Mailer Boxes" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Mailer Boxes</h3>
+          <p class="cat-desc">Sturdy and secure boxes perfect for e-commerce deliveries.</p>
+        </div>
+      </a>
+
+      <!-- 2. Corrugated Boxes -->
+      <a href="catalog.html?type=corrugated-boxes" class="cat-card reveal-up visible" id="cat-corrugated" style="--delay:.07s">
+        <div class="cat-img-box">
+          <img src="images/corrugated-boxes.png" alt="Corrugated Boxes" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Corrugated Boxes</h3>
+          <p class="cat-desc">Strong and durable corrugated boxes for safe packaging and shipping.</p>
+        </div>
+      </a>
+
+      <!-- 3. Shipping Boxes -->
+      <a href="catalog.html?type=shipping-boxes" class="cat-card reveal-up visible" id="cat-shipping" style="--delay:.10s">
+        <div class="cat-img-box">
+          <img src="images/shipping-boxes.png" alt="Shipping Boxes" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Shipping Boxes</h3>
+          <p class="cat-desc">Reliable shipping boxes designed to protect your products.</p>
+        </div>
+      </a>
+
+      <!-- 4. Pizza Boxes -->
+      <a href="catalog.html?type=pizza-boxes" class="cat-card reveal-up visible" id="cat-pizza" style="--delay:.13s">
+        <div class="cat-img-box">
+          <img src="images/pizza-boxes.png" alt="Pizza Boxes" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Pizza Boxes</h3>
+          <p class="cat-desc">Heat-resistant pizza boxes that keep your pizza fresh and hot.</p>
+        </div>
+      </a>
+
+      <!-- 5. Mono Cartons -->
+      <a href="catalog.html?type=mono-cartons" class="cat-card reveal-up visible" id="cat-mono" style="--delay:.16s">
+        <div class="cat-img-box">
+          <img src="images/mono-cartons.png" alt="Mono Cartons" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Mono Cartons</h3>
+          <p class="cat-desc">Premium mono cartons for cosmetics, food, and retail packaging.</p>
+        </div>
+      </a>
+
+      <!-- 6. Courier Bags -->
+      <a href="catalog.html?type=courier-bags" class="cat-card reveal-up visible" id="cat-courier" style="--delay:.19s">
+        <div class="cat-img-box">
+          <img src="images/courier-bags.png" alt="Courier Bags" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Courier Bags</h3>
+          <p class="cat-desc">Lightweight and tamper-proof courier bags for secure deliveries.</p>
+        </div>
+      </a>
+
+      <!-- 7. Paper Bags -->
+      <a href="catalog.html?type=paper-bags" class="cat-card reveal-up visible" id="cat-paperbag" style="--delay:.22s">
+        <div class="cat-img-box">
+          <img src="images/paper-bags.png" alt="Paper Bags" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Paper Bags</h3>
+          <p class="cat-desc">Eco-friendly paper bags for shopping, retail, and promotional use.</p>
+        </div>
+      </a>
+
+      <!-- 8. Tape Rolls -->
+      <a href="catalog.html?type=tape-rolls" class="cat-card reveal-up visible" id="cat-tape" style="--delay:.25s">
+        <div class="cat-img-box">
+          <img src="images/tape-rolls.png" alt="Tape Rolls" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Tape Rolls</h3>
+          <p class="cat-desc">High-quality adhesive tape rolls for secure sealing and packaging.</p>
+        </div>
+      </a>
+
+      <!-- 9. Bubble Wrap -->
+      <a href="catalog.html?type=bubble-wrap" class="cat-card reveal-up visible" id="cat-bubble" style="--delay:.28s">
+        <div class="cat-img-box">
+          <img src="images/bubble-wrap.png" alt="Bubble Wrap" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Bubble Wrap</h3>
+          <p class="cat-desc">Protective bubble wrap for cushioning and safeguarding your items.</p>
+        </div>
+      </a>
+
+      <!-- 10. Corrugated Rolls -->
+      <a href="catalog.html?type=corrugated-rolls" class="cat-card reveal-up visible" id="cat-corrroll" style="--delay:.31s">
+        <div class="cat-img-box">
+          <img src="images/corrugated-rolls.png" alt="Corrugated Rolls" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Corrugated Rolls</h3>
+          <p class="cat-desc">Durable corrugated rolls for wrapping, cushioning, and packaging.</p>
+        </div>
+      </a>
+
+      <!-- 11. Corrugated Sheets -->
+      <a href="catalog.html?type=corrugated-sheets" class="cat-card reveal-up visible" id="cat-sheets" style="--delay:.34s">
+        <div class="cat-img-box">
+          <img src="images/corrugated-sheets.png" alt="Corrugated Sheets" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Corrugated Sheets</h3>
+          <p class="cat-desc">High-strength corrugated sheets for packaging and industrial use.</p>
+        </div>
+      </a>
+
+      <!-- 12. Custom Printed Boxes -->
+      <a href="catalog.html?type=custom-printed-boxes" class="cat-card reveal-up visible" id="cat-printed" style="--delay:.37s">
+        <div class="cat-img-box">
+          <img src="images/custom-printed-boxes.png" alt="Custom Printed Boxes" loading="lazy">
+        </div>
+        <div class="cat-info">
+          <h3 class="cat-name">Custom Printed Boxes</h3>
+          <p class="cat-desc">Custom printed boxes to elevate your brand and leave a lasting impression.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- DYNAMIC PRODUCTS CATALOG -->
+<section class="featured-section section" id="accessories" style="background:#fff">
+  <style>
+    /* Dynamic Catalog Grid & Filters */
+    .catalog-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 40px;
+      margin-top: 40px;
+      align-items: start;
+    }
+    
+    @media (max-width: 992px) {
+      .catalog-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+    
+    /* Sidebar filters */
+    .catalog-sidebar {
+      background: var(--beige);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      border: 1px solid var(--beige-dk);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    .filter-group {
+      border-bottom: 1px solid var(--beige-dk);
+      padding-bottom: 20px;
+    }
+    
+    .filter-group:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    
+    .filter-title {
+      font-family: var(--font-head);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .filter-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .filter-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+      color: var(--charcoal-lt);
+      cursor: pointer;
+    }
+    
+    .filter-item input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--brown);
+      cursor: pointer;
+    }
+    
+    /* Dynamic Grid */
+    .dynamic-products-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+    
+    @media (max-width: 768px) {
+      .dynamic-products-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+    
+    /* Premium Cards */
+    .premium-prod-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--beige-dk);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+    }
+    
+    .premium-prod-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+    }
+    
+    .premium-card-img-wrap {
+      width: 100%;
+      height: 220px;
+      background: var(--beige);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid var(--beige-dk);
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .premium-card-img-wrap img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      transition: var(--transition);
+    }
+    
+    .premium-prod-card:hover .premium-card-img-wrap img {
+      transform: scale(1.04);
+    }
+    
+    .premium-card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex: 1;
+    }
+    
+    .premium-card-title {
+      font-family: var(--font-head);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      line-height: 1.3;
+      margin-bottom: 4px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    
+    .premium-card-title:hover {
+      color: var(--brown);
+    }
+    
+    .premium-sizes-row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    
+    .premium-size-tag {
+      font-size: 0.82rem;
+      color: var(--charcoal-xlt);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .premium-size-tag i {
+      color: var(--brown);
+      width: 14px;
+      height: 14px;
+    }
+    
+    .premium-card-desc {
+      font-size: 0.85rem;
+      color: var(--charcoal-lt);
+      line-height: 1.5;
+    }
+    
+    .premium-card-features-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 12px;
+      border-top: 1px solid var(--beige-dk);
+      border-bottom: 1px solid var(--beige-dk);
+      padding: 14px 0;
+    }
+    
+    .premium-card-feature-item {
+      font-size: 0.78rem;
+      color: var(--charcoal-xlt);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .premium-card-feature-item i {
+      color: var(--green);
+      width: 12px;
+      height: 12px;
+      flex-shrink: 0;
+    }
+    
+    .premium-pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 4px 0;
+      border: 1px solid var(--beige-dk);
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+    }
+    
+    .premium-pricing-table th, .premium-pricing-table td {
+      padding: 8px 12px;
+      font-size: 0.8rem;
+      text-align: left;
+    }
+    
+    .premium-pricing-table th {
+      background: var(--beige-dk);
+      color: var(--charcoal);
+      font-weight: 600;
+    }
+    
+    .premium-pricing-table td {
+      border-bottom: 1px solid var(--beige-dk);
+      color: var(--charcoal-lt);
+    }
+    
+    .premium-pricing-table tr:last-child td {
+      border-bottom: none;
+    }
+    
+    .premium-card-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: auto;
+      border-top: 1px solid var(--beige-dk);
+      padding-top: 16px;
+    }
+    
+    .premium-card-actions button, .premium-card-actions a {
+      flex: 1;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: var(--radius-xs);
+      font-family: var(--font-head);
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: var(--transition);
+    }
+    
+    .premium-btn-quote {
+      background: var(--brown);
+      color: var(--white);
+    }
+    
+    .premium-btn-quote:hover {
+      background: var(--brown-dk);
+    }
+    
+    .premium-btn-whatsapp {
+      border: 1.5px solid var(--brown);
+      color: var(--brown);
+      background: transparent;
+    }
+    
+    .premium-btn-whatsapp:hover {
+      background: var(--beige-dk);
+    }
+    
+    .search-input-wrap {
+      position: relative;
+    }
+    
+    .search-input-wrap i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--charcoal-xlt);
+      width: 16px;
+      height: 16px;
+    }
+    
+    .search-sidebar-input {
+      width: 100%;
+      border: 1px solid var(--beige-xdk);
+      border-radius: var(--radius-xs);
+      padding: 10px 14px 10px 36px;
+      font-size: 0.85rem;
+      background: var(--white);
+      transition: var(--transition);
+    }
+    
+    .search-sidebar-input:focus {
+      outline: none;
+      border-color: var(--brown);
+      box-shadow: 0 0 0 2px rgba(139,94,60,0.1);
+    }
+  </style>
+
+  <div class="container">
+    <div class="section-head reveal-up visible">
+      <span class="section-tag">Flap Mailer Box</span>
+      <h2 class="section-title">Flap Mailer Box range</h2>
+      <p class="section-sub">Extracting sizes, dimensions, and prices dynamically from catalog database.</p>
+    </div>
+    
+    <div class="catalog-layout">
+      <!-- Left sidebar with dynamic filters -->
+      <aside class="catalog-sidebar">
+        <!-- Product Type & Search Filter -->
+        <div class="filter-group">
+          <h4 class="filter-title"><i data-lucide="package" style="width: 15px; height: 15px;"></i> Product Type</h4>
+          <div class="search-input-wrap" style="margin-bottom: 12px; position: relative;">
+            <i data-lucide="layers" style="left: 10px; position: absolute; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--brown); pointer-events: none;"></i>
+            <select id="catalog-category-select" class="search-sidebar-input" style="padding-left: 34px; appearance: auto; cursor: pointer; font-weight: 600; color: var(--charcoal); background: var(--white);">
+              <option value="all">All Product Types</option>
+              <option value="Flap Mailer Box">Flap Mailer Box</option>
+              <option value="Corrugated Shipping Box">Corrugated Shipping Box</option>
+              <option value="Rigid Premium Box">Rigid Premium Box</option>
+              <option value="Mono Folding Carton">Mono Folding Carton</option>
+              <option value="Packaging Accessories">Packaging Accessories</option>
+            </select>
+          </div>
+
+          <h4 class="filter-title" style="margin-top: 14px;"><i data-lucide="search" style="width: 15px; height: 15px;"></i> Search Product</h4>
+          <div class="search-input-wrap">
+            <i data-lucide="search"></i>
+            <input type="text" id="catalog-search" class="search-sidebar-input" placeholder="Search by name or size..." list="product-type-suggestions">
+            <datalist id="product-type-suggestions">
+              <option value="Flap Mailer Box"></option>
+              <option value="Corrugated Shipping Box"></option>
+              <option value="Rigid Premium Box"></option>
+              <option value="Mono Folding Carton"></option>
+              <option value="Packaging Accessories"></option>
+            </datalist>
+          </div>
+        </div>
+
+        <!-- Length filter -->
+        <div class="filter-group">
+          <h4 class="filter-title"><i data-lucide="ruler" style="width: 15px; height: 15px;"></i> Length (inches)</h4>
+          <div class="filter-list" id="length-filter-list">
+            <label class="filter-item">
+              <input type="checkbox" class="filter-length" value="2">
+              <span>2 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-length" value="4">
+              <span>4 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-length" value="5">
+              <span>5 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-length" value="6">
+              <span>6 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-length" value="8">
+              <span>8 Inch</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Width filter -->
+        <div class="filter-group">
+          <h4 class="filter-title"><i data-lucide="ruler" style="width: 15px; height: 15px;"></i> Width (inches)</h4>
+          <div class="filter-list" id="width-filter-list">
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="2">
+              <span>2 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="3">
+              <span>3 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="4">
+              <span>4 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="5">
+              <span>5 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="6">
+              <span>6 Inch</span>
+            </label>
+            <label class="filter-item">
+              <input type="checkbox" class="filter-width" value="8">
+              <span>8 Inch</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Price filter -->
+        <div class="filter-group">
+          <h4 class="filter-title"><i data-lucide="indian-rupee" style="width: 15px; height: 15px;"></i> Max Price (Pack of 50)</h4>
+          <div class="price-slider-wrap">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-size: 0.78rem; color: var(--charcoal-xlt);">₹300</span>
+              <input type="range" id="price-range-slider" min="300" max="800" value="800" step="10" style="flex: 1; accent-color: var(--brown); cursor: pointer;">
+              <span style="font-size: 0.78rem; color: var(--charcoal-xlt);">₹800</span>
+            </div>
+            <div style="text-align: right; font-weight: 600; font-size: 0.85rem; color: var(--brown); margin-top: 8px;">
+              Selected: Max ₹<span id="price-slider-value">800</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right product catalog content -->
+      <main class="catalog-content">
+        <!-- Controls bar -->
+        <div class="catalog-controls" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--beige-dk); padding-bottom: 16px; margin-bottom: 20px;">
+          <div>
+            <span id="catalog-results-count" style="font-size: 0.88rem; color: var(--charcoal-xlt); font-weight: 500;">Showing 0 of 0 results</span>
+          </div>
+          
+          <div class="control-selectors" style="display: flex; gap: 14px;">
+            <div class="selector-item" style="display: flex; align-items: center; gap: 8px;">
+              <span class="selector-label" style="font-size: 0.82rem; color: var(--charcoal-xlt);">Sort by</span>
+              <select id="sort-by-select" class="selector-select" style="border: 1px solid var(--beige-xdk); border-radius: var(--radius-xs); padding: 6px 12px; font-size: 0.85rem; background: var(--white); outline: none;">
+                <option value="default" selected>Default</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="size-low">Size: Small to Large</option>
+                <option value="size-high">Size: Large to Small</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Product Grid -->
+        <div id="dynamic-products-grid" class="dynamic-products-grid">
+          <!-- Dynamically populated via script.js -->
+          <div style="grid-column: 1/-1; text-align: center; padding: 40px;">
+            <i data-lucide="loader-2" class="animate-spin" style="width: 32px; height: 32px; margin: 0 auto 12px; color: var(--brown);"></i>
+            <p style="font-size: 0.9rem; color: var(--charcoal-xlt);">Loading product catalog...</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand column -->
+        <div class="footer-brand-col">
+          <a href="index.html" class="footer-logo">
+            <div class="footer-logo-icon">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="9" fill="#D68A45"/>
+                <path d="M8 8h12a6 6 0 010 12H8V8zm0 12h7v8H8v-8z" fill="#2B2B2B"/>
+              </svg>
+            </div>
+            <div>
+              <p class="fl-name">Box Care</p>
+              <p class="fl-tag">Premium Packaging</p>
+            </div>
+          </a>
+          <p class="footer-desc">Box Care delivers premium custom cardboard packaging to 1,000+ businesses across India. GST-inclusive, eco-friendly, and fully customizable.</p>
+          <div class="footer-socials" style="margin-top: 6px; margin-bottom: 8px;">
+            <a href="#" class="fsoc" id="fsoc-instagram" aria-label="Instagram" title="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="fsoc" id="fsoc-facebook" aria-label="Facebook" title="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="fsoc" id="fsoc-linkedin" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="fsoc" id="fsoc-youtube" aria-label="YouTube" title="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.56 49.56 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+            </a>
+          </div>
+
+          <!-- App Badges in Footer -->
+          <div class="footer-app-box">
+            <span class="footer-app-title">Download Mobile App</span>
+            <div class="footer-app-btns">
+              <!-- Apple App Store -->
+              <a href="index.html#app-download" class="official-app-btn" aria-label="Download on the App Store">
+                <div class="official-btn-icon">
+                  <svg width="24" height="28" viewBox="0 0 170 170" fill="#FFFFFF">
+                    <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.34.13-9.16-1.9-14.48-6.1-3.26-2.62-7.14-7.24-11.64-13.88-6.09-8.92-10.9-18.73-14.42-29.43-3.52-10.7-5.28-21.03-5.28-31 0-14.48 3.73-26.47 11.19-35.97 7.46-9.5 16.92-14.34 28.38-14.52 4.71 0 9.87 1.14 15.48 3.42 5.61 2.28 9.5 3.42 11.68 3.42 1.95 0 5.97-1.19 12.06-3.58 6.09-2.39 11.14-3.47 15.15-3.24 10.37.52 19.04 4.3 26.01 11.35-9.35 5.64-13.9 13.78-13.66 24.42.24 8.35 3.39 15.35 9.46 21 6.07 5.65 13.33 8.78 21.78 9.38-2.6 7.64-6.19 15.29-10.77 22.95zM119.22 31.84c0-7.39 2.65-14.39 7.95-21 5.3-6.61 12-10.45 20.1-11.52.54 6.78-1.52 13.61-6.19 20.49-4.67 6.88-11.02 11.17-19.05 12.87-.55-.65-1.52-1.07-2.81-1.07v.23z"/>
+                  </svg>
+                </div>
+                <div class="official-btn-text">
+                  <span class="official-btn-sub">Download on the</span>
+                  <span class="official-btn-title">App Store</span>
+                </div>
+              </a>
+
+              <!-- Google Play Store -->
+              <a href="index.html#app-download" class="official-app-btn" aria-label="Get it on Google Play">
+                <div class="official-btn-icon">
+                  <svg width="24" height="26" viewBox="0 0 512 512">
+                    <path fill="#415A77" d="M48 40.57v430.86c0 14.51 16.03 23.28 28.2 15.49l336.85-215.43c11.53-7.38 11.53-24.6 0-31.98L76.2 39.08C64.03 31.29 48 40.06 48 40.57z" opacity="0.1"/>
+                    <path fill="#00D2FF" d="M68.5 24.6C54.1 16.4 36 26.8 36 43.4v425.2c0 16.6 18.1 27 32.5 18.8l197.8-113.8L165.6 273 68.5 24.6z"/>
+                    <path fill="#00F076" d="M381.7 202.9l-115.4 66.6 99.3 99.3 115.4-66.6c16-9.2 16-32.3 0-41.5l-99.3-57.8z"/>
+                    <path fill="#FF3A44" d="M266.3 269.5L68.5 487.4c14.4 8.2 32.5-2.2 32.5-18.8v-3.7l165.3-195.4z"/>
+                    <path fill="#FFAE00" d="M266.3 242.5L101 22.8C86.6 14.6 68.5 25 68.5 41.6v3.7l197.8 197.2z"/>
+                  </svg>
+                </div>
+                <div class="official-btn-text">
+                  <span class="official-btn-sub">Get it on</span>
+                  <span class="official-btn-title">Google Play</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products -->
+        <div class="footer-links-col">
+          <h5>Products</h5>
+          <ul>
+            <li><a href="catalog.html?type=mailer-boxes" id="fl-mailer">Mailer Boxes</a></li>
+            <li><a href="catalog.html?type=corrugated-boxes" id="fl-corrugated">Corrugated Boxes</a></li>
+            <li><a href="catalog.html?type=shipping-boxes" id="fl-shipping">Shipping Boxes</a></li>
+            <li><a href="catalog.html?type=pizza-boxes" id="fl-pizza">Pizza Boxes</a></li>
+            <li><a href="catalog.html?type=mono-cartons" id="fl-mono">Mono Cartons</a></li>
+            <li><a href="catalog.html?type=courier-bags" id="fl-courier">Courier Bags</a></li>
+            <li><a href="catalog.html?type=paper-bags" id="fl-paperbags">Paper Bags</a></li>
+            <li><a href="catalog.html?type=tape-rolls" id="fl-taperolls">Tape Rolls</a></li>
+            <li><a href="catalog.html?type=bubble-wrap" id="fl-bubblewrap">Bubble Wrap</a></li>
+            <li><a href="catalog.html?type=corrugated-rolls" id="fl-corrugatedrolls">Corrugated Rolls</a></li>
+            <li><a href="catalog.html?type=corrugated-sheets" id="fl-corrugatedsheets">Corrugated Sheets</a></li>
+            <li><a href="catalog.html?type=custom-printed-boxes" id="fl-gift">Custom Printed Boxes</a></li>
+          </ul>
+        </div>
+
+        <!-- Industries -->
+        <div class="footer-links-col">
+          <h5>Industries</h5>
+          <ul>
+            <li><a href="industries.html" id="fl-food">Food &amp; Beverage</a></li>
+            <li><a href="industries.html" id="fl-beauty">Beauty &amp; Cosmetics</a></li>
+            <li><a href="industries.html" id="fl-pharma">Pharma</a></li>
+            <li><a href="industries.html" id="fl-ecomm">E-Commerce</a></li>
+            <li><a href="industries.html" id="fl-fashion">Fashion</a></li>
+            <li><a href="industries.html" id="fl-electronics-f">Electronics</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="footer-links-col">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="contact.html" id="fl-faq">FAQs</a></li>
+            <li><a href="#" id="fl-track">Track Order</a></li>
+            <li><a href="custom-boxes.html" id="fl-sample">Request Sample</a></li>
+            <li><a href="#" id="fl-return">Return Policy</a></li>
+            <li><a href="#" id="fl-privacy">Privacy Policy</a></li>
+            <li><a href="#" id="fl-terms">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-links-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:+918000000000" id="fl-phone"><i data-lucide="phone"></i>+91 80000 00000</a></li>
+            <li><a href="mailto:hello@boxcare.in" id="fl-email"><i data-lucide="mail"></i>hello@boxcare.in</a></li>
+            <li><span><i data-lucide="map-pin"></i>Mumbai, Maharashtra, India</span></li>
+            <li><span><i data-lucide="clock"></i>Mon–Sat, 9 AM – 7 PM</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="fb-inner">
+        <p>&copy; 2024 Box Care Pvt. Ltd. All rights reserved. Made with ❤️ in India.</p>
+        <div class="payment-methods">
+          <span class="pm-badge">VISA</span>
+          <span class="pm-badge">MC</span>
+          <span class="pm-badge">UPI</span>
+          <span class="pm-badge">GPay</span>
+          <span class="pm-badge">Razorpay</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating Elements -->
+<a href="https://wa.me/918000000000" class="whatsapp-fab" id="whatsapp-fab" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wfab-tooltip">Chat with us</span>
+</a>
+
+<button class="back-top-btn" id="back-top-btn" aria-label="Back to top">
+  <i data-lucide="arrow-up"></i>
+</button>
+
+<div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+<!-- Cart drawer -->
+<div class="cart-drawer" id="cart-drawer">
+  <div class="cart-drawer-overlay" id="cart-overlay"></div>
+  <div class="cart-drawer-panel">
+    <div class="cd-header">
+      <h3><i data-lucide="shopping-bag"></i> Your Cart</h3>
+      <button class="cd-close-btn" id="cd-close-btn"><i data-lucide="x"></i></button>
+    </div>
+    <div class="cd-body" id="cd-body">
+      <div class="cd-empty" id="cd-empty">
+        <i data-lucide="package-open"></i>
+        <p>Your cart is empty</p>
+        <a href="products.html" class="btn-primary" id="cd-shop-btn">Start Shopping</a>
+      </div>
+      <ul class="cd-items" id="cd-items"></ul>
+    </div>
+    <div class="cd-footer" id="cd-footer">
+      <div class="cd-total"><span>Total</span><strong id="cd-total-price">₹0</strong></div>
+      <button class="btn-primary cd-checkout-btn" id="cd-checkout-btn"><i data-lucide="credit-card"></i> Checkout</button>
+    </div>
+  </div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Lucide init -->
+<script>lucide.createIcons();</script>
+<!-- Main script -->
+<script src="script.js"></script>
+</body>
+</html>

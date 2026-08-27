@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://box-care-module.vercel.app/sitemap.xml

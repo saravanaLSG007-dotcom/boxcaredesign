@@ -1,0 +1,618 @@
+[
+  {
+    "id": "fmb-4-4-2",
+    "slug": "kraft-flap-mailer-box-4x4x2",
+    "name": "Kraft Flap Mailer Box - 4x4x2 Inch",
+    "category": "Mailer Boxes",
+    "categorySlug": "mailer-boxes",
+    "categoryId": "mailer-boxes",
+    "size_inches": "4 inch X 4 inch X 2 inch",
+    "size_inches_short": "4x4x2",
+    "size_cm": "10.16 cm x 10.16 cm x 5.08 cm",
+    "length_in": 4.0,
+    "width_in": 4.0,
+    "height_in": 2.0,
+    "length_cm": 10.16,
+    "width_cm": 10.16,
+    "height_cm": 5.08,
+    "description": "Premium self-locking Kraft Flap Mailer Box manufactured using high-grade E-flute corrugated cardboard. Perfect for small e-commerce items, cosmetics, electronics, and subscription box deliveries.",
+    "features": [
+      "Premium Self-Locking Wings",
+      "Superior E-Flute Strength",
+      "Eco-Friendly Recyclable Kraft",
+      "Lightweight for Freight Savings",
+      "100% Biodegradable Material"
+    ],
+    "prices": {
+      "50": 362.5,
+      "100": 675.0,
+      "300": 1875.0,
+      "500": 2875.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/box_4_4_2.png",
+    "specifications": {
+      "Box Type": "Mailer Box",
+      "Material": "Corrugated Cardboard (E-Flute)",
+      "Finish": "Natural Kraft",
+      "Usage": "E-Commerce Shipping",
+      "Customization": "Logo Printing Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "fmb-4-4-1-5",
+    "slug": "slim-flap-mailer-box-4x4x1-5",
+    "name": "Slim Flap Mailer Box - 4x4x1.5 Inch",
+    "category": "Mailer Boxes",
+    "categorySlug": "mailer-boxes",
+    "categoryId": "mailer-boxes",
+    "size_inches": "4 inch X 4 inch X 1.5 inch",
+    "size_inches_short": "4x4x1.5",
+    "size_cm": "10.16 cm x 10.16 cm x 3.81 cm",
+    "length_in": 4.0,
+    "width_in": 4.0,
+    "height_in": 1.5,
+    "length_cm": 10.16,
+    "width_cm": 10.16,
+    "height_cm": 3.81,
+    "description": "Ultra-compact flap mailer box for jewelry, watch accessories, keychains, and small retail electronics. Features tamper-resistant tuck-in flaps.",
+    "features": [
+      "Compact Low-Profile Depth",
+      "High Edge Crush Resistance",
+      "Clean Smooth Surface",
+      "Fast Assembly Dieline"
+    ],
+    "prices": {
+      "50": 326.5,
+      "100": 607.5,
+      "300": 1687.5,
+      "500": 2587.5
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/box_4_4_1_5.png",
+    "specifications": {
+      "Box Type": "Mailer Box",
+      "Material": "Corrugated Cardboard",
+      "Finish": "Superior Brown",
+      "Usage": "Jewelry & Small Items",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "fmb-6-4-2",
+    "slug": "medium-mailer-box-6x4x2",
+    "name": "Medium Mailer Box - 6x4x2 Inch",
+    "category": "Mailer Boxes",
+    "categorySlug": "mailer-boxes",
+    "categoryId": "mailer-boxes",
+    "size_inches": "6 inch X 4 inch X 2 inch",
+    "size_inches_short": "6x4x2",
+    "size_cm": "15.24 cm x 10.16 cm x 5.10 cm",
+    "length_in": 6.0,
+    "width_in": 4.0,
+    "height_in": 2.0,
+    "length_cm": 15.24,
+    "width_cm": 10.16,
+    "height_cm": 5.10,
+    "description": "Versatile medium size mailer box for mobile accessories, sunglasses, skincare bottles, and retail products.",
+    "features": [
+      "Sturdy 3-Ply Construction",
+      "Dust-Proof Side Wings",
+      "Ideal for D2C Brands",
+      "Custom Brand Printing Friendly"
+    ],
+    "prices": {
+      "50": 471.25,
+      "100": 877.5,
+      "300": 2437.5,
+      "500": 3737.5
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/box_6_4_2.png",
+    "specifications": {
+      "Box Type": "Mailer Box",
+      "Material": "Corrugated Cardboard",
+      "Finish": "Natural Kraft",
+      "Usage": "D2C Retail & Shipping",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cb-3ply-10-8-6",
+    "slug": "3-ply-corrugated-box-10x8x6",
+    "name": "3-Ply Corrugated Box - 10x8x6 Inch",
+    "category": "Corrugated Boxes",
+    "categorySlug": "corrugated-boxes",
+    "categoryId": "corrugated-boxes",
+    "size_inches": "10 inch X 8 inch X 6 inch",
+    "size_inches_short": "10x8x6",
+    "size_cm": "25.40 cm x 20.32 cm x 15.24 cm",
+    "length_in": 10.0,
+    "width_in": 8.0,
+    "height_in": 6.0,
+    "length_cm": 25.40,
+    "width_cm": 20.32,
+    "height_cm": 15.24,
+    "description": "High-strength 3-ply single wall corrugated box designed for general storage, packing, warehouse sorting, and courier shipments.",
+    "features": [
+      "High Stacking Strength",
+      "Heavy Duty Kraft Paper",
+      "Impact Absorbing Flute",
+      "Standard RSC Slotted Box"
+    ],
+    "prices": {
+      "50": 520.0,
+      "100": 980.0,
+      "300": 2700.0,
+      "500": 4200.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/corrugated-boxes.png",
+    "specifications": {
+      "Box Type": "Corrugated Box",
+      "Material": "3-Ply Single Wall",
+      "Finish": "Natural Brown",
+      "Usage": "Storage & Cargo",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cb-5ply-12-10-8",
+    "slug": "5-ply-heavy-duty-box-12x10x8",
+    "name": "5-Ply Heavy Duty Corrugated Box - 12x10x8 Inch",
+    "category": "Corrugated Boxes",
+    "categorySlug": "corrugated-boxes",
+    "categoryId": "corrugated-boxes",
+    "size_inches": "12 inch X 10 inch X 8 inch",
+    "size_inches_short": "12x10x8",
+    "size_cm": "30.48 cm x 25.40 cm x 20.32 cm",
+    "length_in": 12.0,
+    "width_in": 10.0,
+    "height_in": 8.0,
+    "length_cm": 30.48,
+    "width_cm": 25.40,
+    "height_cm": 20.32,
+    "description": "Double wall 5-ply corrugated carton engineered for heavy industrial parts, export packing, and maximum stacking load capacity.",
+    "features": [
+      "Double Wall 5-Ply Flute",
+      "Maximum Compression Resistance",
+      "Heavy Cargo Approved",
+      "Tear & Moisture Resistant"
+    ],
+    "prices": {
+      "50": 850.0,
+      "100": 1600.0,
+      "300": 4500.0,
+      "500": 7000.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/corrugated-boxes.png",
+    "specifications": {
+      "Box Type": "Corrugated Box",
+      "Material": "5-Ply Double Wall",
+      "Finish": "Kraft Brown",
+      "Usage": "Heavy Freight & Export",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "sb-8-6-4",
+    "slug": "heavy-duty-shipping-box-8x6x4",
+    "name": "Ecommerce Shipping Carton - 8x6x4 Inch",
+    "category": "Shipping Boxes",
+    "categorySlug": "shipping-boxes",
+    "categoryId": "shipping-boxes",
+    "size_inches": "8 inch X 6 inch X 4 inch",
+    "size_inches_short": "8x6x4",
+    "size_cm": "20.32 cm x 15.24 cm x 10.16 cm",
+    "length_in": 8.0,
+    "width_in": 6.0,
+    "height_in": 4.0,
+    "length_cm": 20.32,
+    "width_cm": 15.24,
+    "height_cm": 10.16,
+    "description": "Standard RSC brown shipping carton designed specifically for Amazon, Flipkart, and Shopify ecommerce merchant fulfillment.",
+    "features": [
+      "Standard Postal Size Approved",
+      "Crush Proof Corners",
+      "Easy Tape Sealing Flaps",
+      "100% Recyclable Board"
+    ],
+    "prices": {
+      "50": 550.0,
+      "100": 1020.0,
+      "300": 2850.0,
+      "500": 4400.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/shipping-boxes.png",
+    "specifications": {
+      "Box Type": "Shipping Box",
+      "Material": "Heavy Duty Kraft",
+      "Finish": "Standard Brown",
+      "Usage": "Freight & Shipping",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "pb-10-10-1-5",
+    "slug": "kraft-corrugated-pizza-box-10x10",
+    "name": "Kraft Pizza Box - 10x10x1.5 Inch",
+    "category": "Pizza Boxes",
+    "categorySlug": "pizza-boxes",
+    "categoryId": "pizza-boxes",
+    "size_inches": "10 inch X 10 inch X 1.5 inch",
+    "size_inches_short": "10x10x1.5",
+    "size_cm": "25.40 cm x 25.40 cm x 3.81 cm",
+    "length_in": 10.0,
+    "width_in": 10.0,
+    "height_in": 1.5,
+    "length_cm": 25.40,
+    "width_cm": 25.40,
+    "height_cm": 3.81,
+    "description": "Heat-retaining corrugated Kraft pizza box for pizzerias, bakeries, and cloud kitchens. Features steam vents to prevent soggy crusts.",
+    "features": [
+      "Food Grade Virgin Paper",
+      "Steam Release Air Vents",
+      "High Thermal Insulation",
+      "Rigid Non-Bending Lid"
+    ],
+    "prices": {
+      "50": 480.0,
+      "100": 900.0,
+      "300": 2500.0,
+      "500": 3900.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/pizza-boxes.png",
+    "specifications": {
+      "Box Type": "Pizza Box",
+      "Material": "Food Safe Kraft Corrugated",
+      "Finish": "Natural Brown",
+      "Usage": "Food Delivery & Bakery",
+      "Customization": "Logo Printing Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "mc-5-3-2",
+    "slug": "mono-folding-carton-5x3x2",
+    "name": "Mono Folding Carton - 5x3x2 Inch",
+    "category": "Mono Cartons",
+    "categorySlug": "mono-cartons",
+    "categoryId": "mono-cartons",
+    "size_inches": "5 inch X 3 inch X 2 inch",
+    "size_inches_short": "5x3x2",
+    "size_cm": "12.70 cm x 7.62 cm x 5.08 cm",
+    "length_in": 5.0,
+    "width_in": 3.0,
+    "height_in": 2.0,
+    "length_cm": 12.70,
+    "width_cm": 7.62,
+    "height_cm": 5.08,
+    "description": "Sleek SBS paperboard mono folding carton crafted for cosmetic, pharmaceutical, and retail product packaging.",
+    "features": [
+      "350 GSM Premium SBS Board",
+      "Vibrant Offset Print Compatible",
+      "Tuck End Closure",
+      "Lightweight Retail Ready"
+    ],
+    "prices": {
+      "50": 340.0,
+      "100": 620.0,
+      "300": 1700.0,
+      "500": 2600.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/mono-cartons.png",
+    "specifications": {
+      "Box Type": "Mono Carton",
+      "Material": "SBS Paperboard",
+      "Finish": "Gloss / Matte",
+      "Usage": "Retail Packaging",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cb-bag-10-14",
+    "slug": "tamper-proof-courier-bag-10x14",
+    "name": "Tamper-Proof Courier Bag - 10x14 Inch (Pack of 100)",
+    "category": "Courier Bags",
+    "categorySlug": "courier-bags",
+    "categoryId": "courier-bags",
+    "size_inches": "10 inch X 14 inch",
+    "size_inches_short": "10x14",
+    "size_cm": "25.40 cm x 35.56 cm",
+    "length_in": 10.0,
+    "width_in": 14.0,
+    "height_in": 0.1,
+    "length_cm": 25.40,
+    "width_cm": 35.56,
+    "height_cm": 0.1,
+    "description": "High-security poly courier mailer bags with hot-melt adhesive seal flap and POD jacket pocket for invoices.",
+    "features": [
+      "Permanent Hot-Melt Adhesive",
+      "Built-In Clear POD Pocket",
+      "Waterproof & Tear Resistant",
+      "Opaque Co-Extruded Poly Film"
+    ],
+    "prices": {
+      "50": 290.0,
+      "100": 520.0,
+      "300": 1450.0,
+      "500": 2200.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/courier-bags.png",
+    "specifications": {
+      "Box Type": "Courier Bag",
+      "Material": "LDPE Poly Co-Ex",
+      "Finish": "White Exterior / Black Interior",
+      "Usage": "E-Commerce Parcel Dispatch",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "pb-bag-8-12",
+    "slug": "kraft-paper-shopping-bag-8x12",
+    "name": "Kraft Paper Shopping Bag with Handles - 8x12 Inch",
+    "category": "Paper Bags",
+    "categorySlug": "paper-bags",
+    "categoryId": "paper-bags",
+    "size_inches": "8 inch X 12 inch X 4 inch",
+    "size_inches_short": "8x12",
+    "size_cm": "20.32 cm x 30.48 cm x 10.16 cm",
+    "length_in": 8.0,
+    "width_in": 12.0,
+    "height_in": 4.0,
+    "length_cm": 20.32,
+    "width_cm": 30.48,
+    "height_cm": 10.16,
+    "description": "Eco-friendly brown kraft paper bag featuring twisted paper handles and reinforced bottom gusset for retail shopping.",
+    "features": [
+      "120 GSM Virgin Kraft",
+      "Twisted Paper Handles",
+      "Reinforced Square Gusset",
+      "100% Eco-Friendly & Compostable"
+    ],
+    "prices": {
+      "50": 420.0,
+      "100": 780.0,
+      "300": 2100.0,
+      "500": 3200.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/paper-bags.png",
+    "specifications": {
+      "Box Type": "Paper Bag",
+      "Material": "Kraft Paper",
+      "Finish": "Natural Brown",
+      "Usage": "Boutiques & Retail Shopping",
+      "Customization": "Brand Stamp Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "tr-2in-50m",
+    "slug": "kraft-paper-packaging-tape-2in",
+    "name": "Self-Adhesive Kraft Tape 2-Inch (50m Roll)",
+    "category": "Tape Rolls",
+    "categorySlug": "tape-rolls",
+    "categoryId": "tape-rolls",
+    "size_inches": "2 inch Width X 50m Roll",
+    "size_inches_short": "2in x 50m",
+    "size_cm": "5.08 cm x 50 m",
+    "length_in": 2.0,
+    "width_in": 2.0,
+    "height_in": 2.0,
+    "length_cm": 5.08,
+    "width_cm": 5.08,
+    "height_cm": 5.08,
+    "description": "Eco-friendly self-adhesive Kraft paper packing tape for tamper-evident sealing of corrugated shipping boxes.",
+    "features": [
+      "Reinforced Fibers",
+      "Strong Water-Activated Adhesive",
+      "100% Recyclable",
+      "Tamper Evident Seal"
+    ],
+    "prices": {
+      "50": 310.0,
+      "100": 580.0,
+      "300": 1600.0,
+      "500": 2400.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/tape-rolls.png",
+    "specifications": {
+      "Box Type": "Tape Roll",
+      "Material": "Kraft Paper Tape",
+      "Finish": "Natural Brown",
+      "Usage": "Box Sealing & Shipping",
+      "Customization": "Branded Print Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "bw-1m-50m",
+    "slug": "protective-air-bubble-wrap-roll",
+    "name": "50m Air Bubble Wrap Roll (1m Width)",
+    "category": "Bubble Wrap",
+    "categorySlug": "bubble-wrap",
+    "categoryId": "bubble-wrap",
+    "size_inches": "39 inch Width X 50m Roll",
+    "size_inches_short": "39in x 50m",
+    "size_cm": "100 cm x 50 m",
+    "length_in": 39.0,
+    "width_in": 39.0,
+    "height_in": 18.0,
+    "length_cm": 100.0,
+    "width_cm": 100.0,
+    "height_cm": 45.0,
+    "description": "High-cushion air bubble packaging roll for protecting fragile items, glassware, and electronics during shipping.",
+    "features": [
+      "High Shock Absorbance",
+      "Dust Free LDPE Material",
+      "100% Recyclable",
+      "Moisture Protective"
+    ],
+    "prices": {
+      "50": 380.0,
+      "100": 720.0,
+      "300": 1950.0,
+      "500": 3100.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/bubble-wrap.png",
+    "specifications": {
+      "Box Type": "Bubble Wrap",
+      "Material": "LDPE Bubble Wrap",
+      "Finish": "Transparent Cushion",
+      "Usage": "Fragile Item Wrapping",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cr-100cm-10m",
+    "slug": "single-face-corrugated-roll-100cm",
+    "name": "Single Face Corrugated Paper Roll (100cm x 10m)",
+    "category": "Corrugated Rolls",
+    "categorySlug": "corrugated-rolls",
+    "categoryId": "corrugated-rolls",
+    "size_inches": "39.3 inch Width X 10m Roll",
+    "size_inches_short": "100cm x 10m",
+    "size_cm": "100 cm x 10 m",
+    "length_in": 39.3,
+    "width_in": 39.3,
+    "height_in": 12.0,
+    "length_cm": 100.0,
+    "width_cm": 100.0,
+    "height_cm": 30.0,
+    "description": "Flexible single-face fluted corrugated paper roll for cushioning furniture, metal profiles, and heavy machinery parts.",
+    "features": [
+      "C-Flute Flexible Board",
+      "Protects Against Scratches & Dents",
+      "100% Biodegradable Kraft",
+      "Easy Scissors Cut"
+    ],
+    "prices": {
+      "50": 650.0,
+      "100": 1200.0,
+      "300": 3300.0,
+      "500": 5100.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/corrugated-rolls.png",
+    "specifications": {
+      "Box Type": "Corrugated Roll",
+      "Material": "Single Face Kraft Paper",
+      "Finish": "Natural Fluted",
+      "Usage": "Surface Protection & Wrapping",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cs-a4-sheet",
+    "slug": "a4-corrugated-cardboard-sheets",
+    "name": "A4 Corrugated Cardboard Sheets (Pack of 50)",
+    "category": "Corrugated Sheets",
+    "categorySlug": "corrugated-sheets",
+    "categoryId": "corrugated-sheets",
+    "size_inches": "11.7 inch X 8.3 inch X 0.15 inch",
+    "size_inches_short": "11.7x8.3",
+    "size_cm": "29.7 cm x 21.0 cm x 0.4 cm",
+    "length_in": 11.7,
+    "width_in": 8.3,
+    "height_in": 0.15,
+    "length_cm": 29.7,
+    "width_cm": 21.0,
+    "height_cm": 0.4,
+    "description": "Heavy-duty 3-ply corrugated cardboard separation sheets. Ideal for layer partitions inside shipping cartons, craft backing, and structural product protection.",
+    "features": [
+      "3-Ply Single Wall Flute",
+      "Precision Cut Margins",
+      "Eco-Friendly Virgin Kraft",
+      "High Compression Stiffness"
+    ],
+    "prices": {
+      "50": 350.0,
+      "100": 640.0,
+      "300": 1750.0,
+      "500": 2700.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/corrugated-sheets.png",
+    "specifications": {
+      "Box Type": "Corrugated Sheet",
+      "Material": "Kraft Cardboard",
+      "Finish": "Natural Brown",
+      "Usage": "Partition & Padding",
+      "Customization": "Available",
+      "Country of Origin": "India"
+    }
+  },
+  {
+    "id": "cpb-custom-logo",
+    "slug": "custom-logo-printed-mailer-box",
+    "name": "Custom Logo Printed Branded Box",
+    "category": "Custom Printed Boxes",
+    "categorySlug": "custom-printed-boxes",
+    "categoryId": "custom-printed-boxes",
+    "size_inches": "8 inch X 6 inch X 3 inch",
+    "size_inches_short": "8x6x3",
+    "size_cm": "20.32 cm x 15.24 cm x 7.62 cm",
+    "length_in": 8.0,
+    "width_in": 6.0,
+    "height_in": 3.0,
+    "length_cm": 20.32,
+    "width_cm": 15.24,
+    "height_cm": 7.62,
+    "description": "Custom printed branded packaging box printed with your company logo, custom pantone colors, and artwork.",
+    "features": [
+      "High Definition Offset Printing",
+      "Spot UV & Foil Stamping Options",
+      "Free Dieline Template Assistance",
+      "Full Interior & Exterior Print"
+    ],
+    "prices": {
+      "50": 790.0,
+      "100": 1450.0,
+      "300": 4100.0,
+      "500": 6400.0
+    },
+    "contact_number": "+91 89039 27262",
+    "availability": "In Stock",
+    "image": "images/custom-printed-boxes.png",
+    "specifications": {
+      "Box Type": "Custom Printed Box",
+      "Material": "E-Flute Corrugated",
+      "Finish": "Custom Artwork Print",
+      "Usage": "Branded Unboxing & D2C",
+      "Customization": "Full Custom Print",
+      "Country of Origin": "India"
+    }
+  }
+]
